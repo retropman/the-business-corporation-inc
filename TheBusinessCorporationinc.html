@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Business Corporation, Inc. – We Literally Mean Business</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --money:#19c37d;
+      --power:#111827;
+      --paper:#f9fafb;
+      --highlight:#facc15;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;font-family:'Roboto',sans-serif;color:var(--power);}  
+    body{line-height:1.6;background:var(--paper);}  
+    header{background:var(--power);padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10;}  
+    header h1{color:var(--money);font-family:'Inter',sans-serif;font-weight:600;font-size:1.5rem;}  
+    nav a{color:var(--paper);margin-left:1rem;text-decoration:none;font-size:0.9rem;}  
+    nav a:hover{color:var(--highlight);}  
+    .hero{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:6rem 1rem;background:linear-gradient(125deg,var(--money)30%,var(--highlight)130%);color:var(--power);}  
+    .hero h2{font-size:2.5rem;font-family:'Inter',sans-serif;font-weight:600;margin-bottom:1rem;}  
+    .hero p{font-size:1.1rem;margin-bottom:2rem;}  
+    .button{background:var(--power);color:var(--paper);padding:0.8rem 1.5rem;border:none;border-radius:4px;font-size:1rem;text-decoration:none;}  
+    .button:hover{background:var(--money);}  
+    .section{padding:4rem 1rem;max-width:1100px;margin:auto;}  
+    .section h3{font-family:'Inter',sans-serif;font-size:1.8rem;color:var(--money);margin-bottom:1.5rem;text-align:center;}  
+    .cards{display:grid;gap:1.5rem;}  
+    @media(min-width:768px){.cards{grid-template-columns:repeat(3,1fr);} }  
+    .card{background:#fff;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,.1);padding:2rem;text-align:center;}  
+    .card h4{font-size:1.2rem;margin-bottom:0.5rem;}  
+    .stats-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;margin-top:3rem;}  
+    .stat{background:#fff;border-radius:8px;padding:1.5rem 2rem;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,.08);}  
+    footer{background:var(--power);color:var(--paper);padding:2rem;text-align:center;margin-top:4rem;}  
+    footer a{color:var(--highlight);text-decoration:none;}  
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>The Business Corporation, Inc.</h1>
+  <nav>
+    <a href="#mission">Mission</a>
+    <a href="#products">Products</a>
+    <a href="#policy">Policy</a>
+    <a href="#insights">Insights</a>
+    <a href="#dashboard">Impact</a>
+    <a href="#join">Join</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>We Literally Mean Business</h2>
+  <p>Because if you’re not monetising the air you breathe, what are you even doing?</p>
+  <a href="#join" class="button">Give Us Money</a>
+</section>
+
+<section id="mission" class="section">
+  <h3>Our Mission (because investors asked for one)</h3>
+  <div class="cards">
+    <div class="card"><h4>Aggressive Growth</h4><p>Quarterly results so good your CFO will need smelling salts.</p></div>
+    <div class="card"><h4>Synergistic Synergies</h4><p>We leverage leverage to leverage leveraged leverage.</p></div>
+    <div class="card"><h4>Thought Leadership</h4><p>Hot takes so fresh they still have grill marks.</p></div>
+    <div class="card"><h4>Paperless Receipts</h4><p>Because sustainability looks great in annual reports.</p></div>
+  </div>
+</section>
+
+<section id="products" class="section">
+  <h3>Products You Didn’t Know You Needed</h3>
+  <div class="cards">
+    <div class="card"><h4>AI-Powered Buzzword Generator</h4><p>Instantly populate your pitch deck with words that sound expensive.</p></div>
+    <div class="card"><h4>Subscription to Subscriptions™</h4><p>A monthly plan that signs you up for more monthly plans. Infinite ARR!</p></div>
+    <div class="card"><h4>Green™</h4><p>Just… Green. Trust us, the regulators love it.</p></div>
+  </div>
+</section>
+
+<section id="policy" class="section">
+  <h3>Policy & Advocacy (mostly lobbying)</h3>
+  <p>We write strongly‑worded letters to anyone threatening our tax breaks, then recycle them to prove we care about the planet.</p>
+</section>
+
+<section id="insights" class="section">
+  <h3>Latest Insights (things we just made up)</h3>
+  <p><em>Q2 Forecast: Market poised for unprecedented precedented growth.</em></p>
+</section>
+
+<section id="dashboard" class="section">
+  <h3>Impact Dashboard*</h3>
+  <div class="stats-bar">
+    <div class="stat">27,001 PowerPoints Created</div>
+    <div class="stat">$999 Bn Market Hype</div>
+    <div class="stat">0.0001% Paper Saved</div>
+  </div>
+  <p style="text-align:center;font-size:0.8rem;margin-top:1rem;">*Numbers approximate, rounded toward optimism.</p>
+</section>
+
+<section id="join" class="section">
+  <h3>Ready to Give Us Money?</h3>
+  <p>Invest in tomorrow, because yesterday already spent the budget.</p>
+  <a href="#" class="button">Sign Me Up Yesterday</a>
+</section>
+
+<footer>
+  <p>&copy; 2025 The Business Corporation, Inc. All rights reserved (especially yours).</p>
+  <p><a href="#">Privacy</a> · <a href="#">Fine Print nobody reads</a> · <a href="#">Contact (but keep it brief)</a></p>
+</footer>
+
+</body>
+</html>
